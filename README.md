@@ -1,6 +1,6 @@
-#Getting Started
+# Getting Started
 
-##Prerequisites
+## Prerequisites
 This projects uses Node.js. You must ensure to complete installation by :-
 1.Node.js :- you can download node by official website https://nodejs.org.
 2.npm :- It is default package manager for Node.js. 
@@ -9,7 +9,7 @@ After installation, verify by checking node version
 node -v
 ```
 
-##Run locally
+## Run locally
 Clone the project
 ```bash
 git clone https://github.com/syednida01/Caching-Proxy-Server.git
@@ -25,8 +25,8 @@ Install dependencies
 npm install
 ```
 
-#Usage
-##Start the server
+# Usage
+## Start the server
 User should be able to start the caching proxy server by running a command like following:
 ``` bash
 node ./index.js start-cache --port <number> --origin <url>
@@ -40,7 +40,7 @@ For example, if the user runs the following command:
 caching-proxy --port 3000 --origin http://dummyjson.com
 ```
 
-##Clear the cache
+## Clear the cache
 User can be able to clear the cache by running following command:
 ```bash
 node ./index.js clear-cache
